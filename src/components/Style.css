@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: rgba(54, 23, 140, 1);
+}
+.herosection  {
+  background-color: rgba(54, 23, 140, 1);
+  /* background-image: url('/public/images/Vector\ \(1\).png'); */
+  border-bottom-right-radius: 100px;
+  height:auto;
+
+}
+
+
+.content-container {
+  max-width: 1300px;
+  margin: auto;
+  height:auto;
+}
+
+.login button {
+  line-height: 15px;
+  border-image: linear-gradient(45deg, #ffa6fa, #3c79d4);
+  border-image-slice: 1;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
+.content {
+  display: flex;
+}
+.image-nft img {
+  width: 100%;
+  background-image: url('/public/images/Vector\ \(1\).png');
+}
+
+.main-heading h4 {
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.main-heading h2 {
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+}
+.main-heading p {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+.main-heading span {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+.video-content h5 {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.video-content p {
+  font-size: 12px;
+}
+.main-content-heading {
+  margin-top: 100px;
+}
+.video-icon {
+  margin-top: 50px;
+}
+
+li a {
+  font-family: "Poppins", sans-serif;
+}
+li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: black;
+  margin: auto;
+  display: block;
+}
+
+li a:hover::after {
+  width: 50%;
+  transition: width 0.3s linear;
+}
+
+/* thirdsection */
+
+.container2 {
+  max-width: 1300px;
+  height: auto;
+  margin: auto;
+  /* margin-top: 200px; */
+}
+
+.emp-card {
+  width: 300px;
+  height: 150px;
+  border: 3px solid black;
+  box-shadow: 5px 2px 4px 0px whitesmoke;
+  border-radius: 10px;
+}
+
+.employe-title {
+  margin-left: 100px;
+}
+
+@media (max-width: 1200px) {
+ 
+  .container2 {
+    /* max-width:13px; */
+    width: 100%;
+    height: auto;
+    /* margin: auto; */
+  }
+
+  .card-card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .employe-title h4 {
+    font-size: 15px;
+    margin-left: -50px;
+  }
+  .emp-card {
+    width: 100%;
+  }
+  .emp-details p {
+    font-size: 10px;
+  }
+  .bottom-images img {
+    width: 100%;
+    margin-top: -40px;
+  }
+}

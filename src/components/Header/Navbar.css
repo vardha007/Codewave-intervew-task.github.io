@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+}
+
+.btnlogin {
+  padding: 8px 10px;
+  border-image-slice: 1;
+  border-radius: 5px;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, #ffa6fa, #3c79d5);
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+ul li a {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: white;
+  margin: auto;
+  display: block;
+}
+
+ul li a:hover::after {
+  width: 50%;
+  transition: width 0.3s linear;
+}
+.mainheading p{
+  font-size:15px;
+  font-weight: bold;
+}
+
+.mainheading h5 {
+  font-size:40px;
+  font-family: "Poppins",sans-serif;
+  font-weight: bold;
+}
+.mainheading h6 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+/* content */
+
+@media (max-width:1200px) {
+  .content-container {
+    width: 100%;
+    margin: auto;
+    height:auto;
+    padding:30px;
+  }
+
+  .herosection  {
+    background-color: rgba(54, 23, 140, 1);
+    border-bottom-right-radius: 100px;
+    height:auto;
+    }
+
+    .content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+    }
+
+
+  .image-3d {
+    /* max-width:50%; */
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    /* height: auto; */
+  }
+
+  .image-nft img {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+  }
+  .mainheading h6 {
+    font-size:30px;
+    font-family: "Poppins",sans-serif;
+    font-weight: bold;
+  }
+  .mainheading h6 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+  /* .main-heading p {
+    font-size: 8px;
+    /* font-family: "Poppins", sans-serif; */
+  /* }  */
+
+  .video-icon {
+    display: block;
+    float: center;
+  }
+
+  .video-icon {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .video-icon h5 {
+    font-size: 30px;
+  }
+  .video-icon p {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .container {
+    /* width: 100vh; */
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top-nfet-section {
+  background-image: url("/public/images/bg-second.png");
+  padding: 50px 0px 10px 0px;
+}
+
+title p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  /* margin-top: 25px; */
+  font-weight: bold;
+}
+.second-title p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.third-title p,
+span {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  /* height:100vh; */
+}
+.card {
+  max-width: 370px;
+  background-color: black;
+  height: 100%;
+}
+.price img {
+  background-color: gold;
+  width: 20px;
+  height: 20px;
+}
+.title-name {
+  display: flex;
+  align-self: flex-start;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+.bidnow {
+  background-image: linear-gradient(25deg, rgba(255, 166, 250, 1), blue);
+  line-height: 15px;
+  border-image: linear-gradient(45deg, #ffa6fa, #3c79d4);
+  border-image-slice: 1;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+  background-color: rgba(54, 23, 140, 1);
+  color: white;
+}
+.bottom-card {
+  /* border: 5px solid black; */
+  border: none;
+  padding: 15px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+    margin: auto;
+  }
+  .bothsections {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 10px; */
+    gap: 30px;
+  }
+
+  .card {
+    display: flex;
+    max-width: 100vh;
+    margin: auto;
+    background-color: black;
+  }
+
+  .main-image img {
+    width: 100%;
+  }
+  .third-title span {
+    display: none;
+    visibility: hidden;
+  }
+}
